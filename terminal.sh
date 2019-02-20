@@ -1,4 +1,4 @@
-version="V.0.03"
+version="V.0.04"
 
 git add .
 
@@ -23,3 +23,5 @@ git push
 git tag -a $version -m "new release version $version"
 
 git push origin --tags
+
+git checkout development
