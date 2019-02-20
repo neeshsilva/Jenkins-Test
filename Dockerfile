@@ -12,9 +12,7 @@ RUN pwd
 
 RUN ls
 
-RUN cd /tmp/
-
-RUN ls
+RUN cd /tmp/ && ls
 
 RUN cd ../
 
