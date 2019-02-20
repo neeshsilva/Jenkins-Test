@@ -2,7 +2,7 @@ FROM node:11.2.0
 
 ADD ./package.json /tmp/
 
-RUN cd /tmp/ && npm install
+RUN cd /tmp/ && npm install && ls
 
 RUN npm install -g pm2
 
