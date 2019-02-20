@@ -8,6 +8,10 @@ RUN npm install -g pm2
 
 ADD ./ /code/
 
+RUN pwd
+
+RUN ls
+
 RUN cp -r /tmp/node_modules/ /code/
 
 EXPOSE 3004
