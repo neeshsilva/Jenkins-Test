@@ -1,5 +1,5 @@
 // const should = require('should');
-const request = require('request');
+const request = require('../node_modules/request');
 const expect = require('chai').expect;
 const baseUrl = "http://localhost:3004/api/";
 const util = require('util');
