@@ -1,4 +1,4 @@
-version="V.0.06"
+version="V.0.07"
 
 git add .
 

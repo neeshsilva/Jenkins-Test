@@ -12,7 +12,7 @@ RUN pwd
 
 RUN ls
 
-RUN cd /temp/
+RUN cd /tmp/
 
 RUN ls
 
