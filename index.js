@@ -12,7 +12,7 @@ const Joi = require('joi');
 
 app.use(express.json());
 
-var HelloPage = "<body style='background-color:black'><center><h1 style='color:gold; font-size: 200px; margin-top: 400px'>Hello Test API</h1></center></body>";
+var HelloPage = "<body style='background-color:black'><center><h1 style='color:gold; font-size: 200px; margin-top: 400px'>Hello Test </h1></center></body>";
 
 
 const courses = [
