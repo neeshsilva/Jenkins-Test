@@ -12,6 +12,12 @@ RUN pwd
 
 RUN ls
 
+RUN cd /temp/
+
+RUN ls
+
+RUN cd ../
+
 RUN cp -r /tmp/node_modules/ /code/
 
 EXPOSE 3004
